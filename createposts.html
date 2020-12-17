@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+form {border: 3px solid #f1f1f1;}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+img.reg {
+  width: 10%;
+  border-radius: 10%;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+<h2>Create a post</h2>
+  <div class="imgcontainer">
+    <img src="obj.jpg" alt="objects" class="reg">
+  </div>
+  <div class="container">
+    <label for="uname"><b>Requirement Name</b></label>
+    <input type="text" name="uname" required> 
+    <h4>Enter a valid address</h4>
+    <label for="uname"><b>State</b></label>
+    <input type="text" name="uname" required>
+
+    <label for="uname"><b>City</b></label>
+    <input type="text" name="uname" required>
+
+    <label for="uname"><b>Area</b></label>
+    <input type="text" name="uname" required>
+
+    <label for="uname"><b>Any Landmarks</b></label>
+    <input type="text" name="uname" required>
+
+    <label for="uname"><b>Details of the Appeal</b></label>
+    <input type="text" name="uname" required>
+
+    <label for="uname"><b>Quantity</b></label>
+    <input type="number" name="uname" required>
+
+    <label for="uname"><b>Units</b></label>
+    <input type="text" placeholder="Enter either count of items or weight(count,kg,gm,l,kl)" name="uname" required> 
+
+    <label for="uname"><b>Additional Details</b></label>
+    <input type="text" name="uname" required>
+
+        
+    <button type="Submit"><a href="login.html">Create</a></button>
+    <button type="button" class="cancelbtn"><a href="homepage.html">Cancel</a></button>
+  </div>
+</form>
+
+</body>
+</html>
